@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Boutique CBD</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0f172a;
+    color: white;
+}
+
+header {
+    background: #020617;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    color: #22c55e;
+}
+
+nav a {
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(45deg, #020617, #065f46);
+}
+
+.hero h2 {
+    font-size: 32px;
+}
+
+.btn {
+    background: #22c55e;
+    padding: 12px 25px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    color: black;
+    font-weight: bold;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    padding: 40px;
+}
+
+.product {
+    background: #020617;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.product img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #020617;
+    margin-top: 30px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>CBD Shop</h1>
+    <nav>
+        <a href="#">Accueil</a>
+        <a href="#">Produits</a>
+        <a href="#">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>CBD Premium</h2>
+    <p>Produits naturels & puissants</p>
+    <button class="btn">Voir les produits</button>
+</section>
+
+<section class="products">
+
+    <div class="product">
+        <img src="https://via.placeholder.com/300">
+        <h3>Fleurs CBD</h3>
+        <p>À partir de 9,90€</p>
+        <button class="btn">Ajouter</button>
+    </div>
+
+    <div class="product">
+        <img src="https://via.placeholder.com/300">
+        <h3>Huile CBD</h3>
+        <p>À partir de 19,90€</p>
+        <button class="btn">Ajouter</button>
+    </div>
+
+    <div class="product">
+        <img src="https://via.placeholder.com/300">
+        <h3>Résine CBD</h3>
+        <p>À partir de 12,90€</p>
+        <button class="btn">Ajouter</button>
+    </div>
+
+</section>
+
+<footer>
+    © 2026 CBD Shop - Tous droits réservés
+</footer>
+
+</body>
+</html>
